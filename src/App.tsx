@@ -16,6 +16,11 @@ import { DynamicIcon } from "./materi/class-15/8-record/DynamicIcon";
 
 // Class 18
 import TodoList2 from "./materi/class-18/TodoList";
+import UserLists from "./materi/class-20/1-fetch/UserLists";
+import AlbumLists from "./materi/class-20/2-axios/AlbumLists";
+import PhotoPages from "./materi/class-20/3-study-kasus/components/pages/Photo/PhotoPages";
+import PostPages from "./materi/class-20/3-study-kasus/components/pages/Post/PostPages";
+import UserPages from "./materi/class-20/3-study-kasus/components/pages/User/UserPages";
 
 const App = () => {
   return (
@@ -71,6 +76,15 @@ const App = () => {
         <TodoList2 id={1} todo={"Makan"} />
         <TodoList2 id={2} todo={"Minum"} />
         <TodoList2 id={3} todo={"Tidur"} />
+      </div>
+
+      <div>
+        <h1>CLASS 20 - Fetching Data</h1>
+        <UserLists />
+        <AlbumLists />
+        <PostPages />
+        <UserPages />
+        <PhotoPages />
       </div>
     </div>
   );
